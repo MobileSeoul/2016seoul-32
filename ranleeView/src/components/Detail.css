@@ -1,0 +1,34 @@
+.textAlignCenter{
+	text-align:center;
+}
+
+.detailImageDiv{
+	margin-top:4%;
+	text-align:center;
+}
+
+
+.detailContent{
+	width: 90%;
+    margin: 0 auto;
+}
+
+
+.btnBUY{
+	position:fixed;
+	bottom:0;
+	width:100%;
+
+	padding-top:5%;
+	padding-bottom:5%;
+	background-color:#4CBA6A;
+	color:#FFFFFF;
+	text-align:center;
+	-webkit-tap-highlight-color:transparent;
+}
+
+.btnBUY a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+

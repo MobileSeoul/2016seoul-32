@@ -1,0 +1,21 @@
+# fuck you to windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# fuck you to mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# and fuck you to android studio
+.gradle
+/local.properties
+*/build
+/captures
+/.idea
+*.iml
+
+
+*.gzip
+*.log

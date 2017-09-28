@@ -1,0 +1,147 @@
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+* { 
+	font-family:'Nanum Gothic';
+}
+
+body{
+	margin:0;
+	background-color:#FFFFFF;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+.height-100{
+	height:100%;
+}
+
+.height-30{
+	height:30%;
+}
+
+.width-100{
+	width:100%;
+}
+
+.width-90{
+	width:90%;
+}
+
+.width-80{
+	width:80%;
+}
+
+
+.nav-bar{
+	border-bottom:0.1em solid #8D8E8F;
+	position: relative;
+	height:7%;
+	background-color: #1E8C56;
+}
+
+.nav-title{
+	float: left;
+    margin-left: 40%;
+    margin-top: 4%;
+    color:#FFFFFF;
+}
+
+.nav-bar .BTN-FILTER{
+	float:right;
+	margin-right:5%;
+	margin-top:2%;
+	-webkit-tap-highlight-color:transparent;
+}
+
+.bar-wrapper{
+	width:80%;
+	margin:0 auto;
+}
+
+
+.search-bar{
+	width:100%;
+	height:15%;
+	margin: 30% 0;
+	text-align:center;
+	border:1.5px solid #4CBA6A;
+	border-radius:10px;
+	-webkit-appearance:none;
+	-moz-appearance: none;
+	appearance: none;
+	color:#8D8E8F;
+	font-size:80%;
+	-webkit-tap-highlight-color:transparent;
+}
+
+.list-group{
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color:#FFFFFF;
+}
+
+.tab-group{
+	width:100%;
+	font-size:0.8em;
+	-webkit-tap-highlight-color:transparent;
+}
+
+.tab-group .tab{
+    width: 49.1%;
+    height: 100%;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #FFFFFF;
+    color:#8D8E8F;
+}
+
+.tab-selected{
+	border-top:0.1em solid #4CBA6A;
+	border-left:0.1em solid #4CBA6A;
+	border-right:0.1em solid #4CBA6A;
+	border-bottom:0.1em solid #FFFFFF;
+	color:#4CBA6A !important;
+}
+
+.tab-unselected{
+	border-top:0.1em solid #FFFFFF;
+	border-left:0.1em solid #FFFFFF;
+	border-right:0.1em solid #FFFFFF;
+	border-bottom:0.1em solid #4CBA6A;
+	color:#8D8E8F !important;
+}
+
+.item-group{
+	position:absolute;
+	top:10%;
+	margin:0 auto;
+
+}
+.item-group .item{
+	width:30%;
+	height:10%;
+	float:left;
+	margin: 1.3%;
+    border: 1px solid #E4E4E4;
+    font-size:0.8em;
+    overflow:hidden;
+
+}
+
+.item-group .item img{
+	width:100%;
+}
+
+.item-group .item .title{
+	color:#9D9D9D;
+	font-size:em;
+}
+
+
+
+
+

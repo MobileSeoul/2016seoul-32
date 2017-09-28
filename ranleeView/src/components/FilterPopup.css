@@ -1,0 +1,36 @@
+.display{
+    display:block;
+    position: absolute;
+    top:80px;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:0 auto;
+    width: 60%;
+    height: 200px;
+    background-color:#FFFFFF;
+    border:1px solid #4CBA6A;
+    border-radius: 20px;
+    text-align:center;
+    z-index: 100;
+}
+
+.displayNone{
+    display:none;
+ }
+
+.inputStyle{
+    color:#4CBA6A;
+    font-weight:200;
+}
+
+.btnOK{
+    margin-top:10%;
+    color:#FFFFFF;
+    background-color:#4CBA6A;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:50px;
+}

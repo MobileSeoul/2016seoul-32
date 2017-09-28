@@ -1,0 +1,24 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "description": "for ranlee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yenoss,goyaaaaaaaa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cheerio": "^0.22.0",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "express-generator": "^4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "request": "^2.75.0",
+    "serve-favicon": "~2.3.0",
+    "urlencode": "^1.1.0"
+  }
+}
